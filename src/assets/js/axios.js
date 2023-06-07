@@ -1,6 +1,5 @@
 import axios from "axios";
 import qs from "qs";
-import { ElMessage } from "element-plus";
 import { showMsg, deleteEmpty } from "@/assets/js/public";
 import router from "@/router/index";
 axios.defaults.baseURL = import.meta.env.VITE_APP_WEB_URL;

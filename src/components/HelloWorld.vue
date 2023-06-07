@@ -5,7 +5,6 @@
 </template>
 
 <script setup>
-import { reactive, ref,onMounted } from "vue";
 const props = defineProps({});
 function clickDo(){
   console.log('点击事件')
