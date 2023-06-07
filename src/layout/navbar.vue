@@ -18,8 +18,10 @@
 <script setup>
 import { showMsg, deleteEmpty, confirmBox, alertBox } from "../assets/js/public";
 import router from "@/router";
+import { store } from "@/store/index";
 import { useRoute } from 'vue-router'
 const $route = useRoute()
+
 
 // 面包屑
 const breadcrumbData = ref([])
